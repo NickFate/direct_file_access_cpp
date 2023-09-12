@@ -1,4 +1,4 @@
-#include <stdio.h>
+
 #include <iostream>
 
 #include <string> // дл€ проверки ввода
@@ -221,7 +221,7 @@ void main()
             int off; 
             char byte;
             cout << "¬ведите позицую нужного байта: ";
-            cin >> off;
+            off = stoi(input_with_checking(is_digit));
             cout << "¬ведите новое значение байта: ";
             cin >> byte;
 
